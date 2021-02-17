@@ -97,35 +97,58 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #efe1ce;
   height: 100%;
+  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
 }
 
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-around;
+  font-size: 1.2em;
+}
+
+.about-me {
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-around;
+}
+
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 300;
   display: flex;
   justify-content: space-between;
+  align-content: space-around;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1em;
+  background-color: #e0b589;
+  border-style: solid;
+  border-color: #9a8b4f;
+  border-width: 3px;
+  height: auto;
   display: flex;
   width: 30%;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 0px 20px 0px;
   justify-content: center;
   align-items: center;
+  align-content: space-around;
 }
 
 
