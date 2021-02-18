@@ -16,31 +16,40 @@
         <link href='http://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <section class="title">
-            <h1>Hi, my name is Emily! </h1>
-        </section>
-        <section class="about-me">
-            <h3>I am an aspiring Front End Developer who is currently teaching herself to code! I'm looking to make a career change and diving right into the world of tech. So far, I've mastered HTML and CSS and I'm currently learning about responsive web design. Check out more about me below!</h3>
-        </section>
-        <section class="wrapper">
-            <div class="div-1">
+        <section class="flex-container">
+
+            <header>Hi, my name is Emily! </header>
+
+
+            <main>I am an aspiring Front End Developer who is currently teaching herself to code! I'm looking to make a career change and diving right into the world of tech. So far, I've mastered HTML and CSS and I'm currently learning about responsive web design. Check out more about me below!</main>
+
+
+            <div id="div-1" class="flex-items">
                 <p>After attending college and earning a degree in Photography, I found that it wasn't something that I wanted to pursue a career in. Rather, it's more of a hobby and a way to express myself.
                   While looking to make a career change, I stumbled upon coding and decided to take an introductory course just to get my feet wet and see if it was something I would like. Turns out I love it!
                   Ever since I've been teaching myself to code while working a full time job and while it's been challenging, I've been enjoying every bit.</p>
-
             </div>
-            <div class="div-2">
+
+            <div id="div-2" class="flex-items">
                 <p>When I'm not coding, I love to read, bake, and embroider. I'm basically a grandma in a 20-something year olds body! But I love creating and giving presents, so my friends and family get to try everything I make.</p>
             </div>
-            <div class="div-3">
+
+            <div id="div-3" class="flex-items">
                 <p>Up Next: JavaScript!</p>
             </div>
+
+            <footer>
+              <img src="./img/github-icon.png" alt="GitHub Icon" style="width:40px;height:40px;" class= "social-icon">
+              <img src="./img/pinterest-icon.png" alt="Pinterest Icon" style="width:40px;height:40px;" class= "social-icon">
+            </footer>
+
         </section>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

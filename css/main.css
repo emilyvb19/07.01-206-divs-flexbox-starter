@@ -109,38 +109,54 @@ body {
   height: 100%;
 }
 
-.title {
+header,
+footer {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8em;
+  height: 100px;
   display: flex;
+  width: 100%;
+
   justify-content: flex-start;
   align-items: space-around;
-  font-size: 1.2em;
+  align-items: center;
+  align-content: space-around;
 }
 
-.about-me {
+.social-icon{
+  margin: 0 15px 15px 0;
+}
+main {
+  font-weight: 400;
+  font-size: 1.1em;
+  height: auto;
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
-  align-items: space-around;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #9a8b4f;
+  border-bottom: 2px solid #9a8b4f;
+  margin: 20px 0 20px 0;
+  padding: 15px 0 15px 0;
 }
 
 
-.wrapper {
+.flex-container {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 300;
   display: flex;
   justify-content: space-between;
   align-content: space-around;
   flex-flow: row wrap;
+
 }
 
-.div-1, .div-2, .div-3 {
+.flex-items {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
   background-color: #e0b589;
-  border-style: solid;
-  border-color: #9a8b4f;
-  border-width: 3px;
+  border: 3px solid #9a8b4f;
   height: auto;
   display: flex;
   width: 30%;
